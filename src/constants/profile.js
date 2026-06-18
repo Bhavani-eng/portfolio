@@ -31,6 +31,7 @@ export const CERTIFICATES = [
   { id: 'cert-4', title: 'Certification 4', href: assetPath('certificates/cert4.jpeg'), kind: 'image' },
   { id: 'cert-5', title: 'Certification 5', href: assetPath('certificates/cert5.jpeg'), kind: 'image' },
   { id: 'cert-6', title: 'Certification 6', href: assetPath('certificates/cert6.jpeg'), kind: 'image' },
+  { id: 'cert-7', title: 'Certification 7', href: assetPath('certificates/cert7.png'), kind: 'image' },
 ]
 
 export const SEMESTER_RESULTS = {

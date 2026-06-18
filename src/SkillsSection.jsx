@@ -37,6 +37,18 @@ const SKILL_CATEGORIES = [
       'OpenCV',
     ],
   },
+  {
+    id: 'genai',
+    title: 'Generative AI / AI',
+    accent: 'cyan',
+    skills: [
+      'Retrieval-Augmented Generation (RAG)',
+      'LangChain',
+      'ChromaDB',
+      'Vector Embeddings',
+      'Large Language Models (LLMs)',
+    ],
+  },
 ]
 
 const categoryReveal = {
