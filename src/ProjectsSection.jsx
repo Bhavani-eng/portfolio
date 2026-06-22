@@ -24,7 +24,7 @@ const PROJECTS = [
       'Traffic data processing',
       'Deep learning optimization',
     ],
-    github: GITHUB_REPO_URL,
+    github: 'https://github.com/Bhavani-eng/research-paper',
     demo: null,
   },
   {
@@ -46,7 +46,38 @@ const PROJECTS = [
       'Machine learning models',
       'Healthcare analytics',
     ],
-    github: GITHUB_REPO_URL,
+    github: 'https://github.com/Bhavani-eng/mep-biosense',
+    demo: null,
+  },
+  {
+    id: 'lecturelens',
+    title: 'LectureLens AI',
+    badge: 'Generative AI',
+    accent: 'indigo',
+    techStack: [
+      'RAG',
+      'FastAPI',
+      'React',
+      'Gemini',
+      'ChromaDB',
+      'Sentence Transformers',
+      'Tailwind CSS',
+    ],
+    description: [
+      'Developed a Retrieval-Augmented Generation (RAG) platform to convert educational videos into interactive study aids',
+      'Built a transcript extraction pipeline with automated caption cleaning and smart fallback languages',
+      'Implemented per-lecture semantic search index using local ChromaDB and Hugging Face embeddings',
+      'Designed a grounded chat interface with strict anti-hallucination prompts and timestamped sources',
+      'Generated structured revision study notes with schema validation and plans for PDF/DOCX export',
+    ],
+    features: [
+      'Chat with Lecture',
+      'AI Notes Generation',
+      'PDF/DOCX Export',
+      'Anti-Hallucination Responses',
+      'Caption-based Transcript Extraction',
+    ],
+    github: 'https://github.com/Bhavani-eng/lecturelens-ai',
     demo: null,
   },
 ]
@@ -95,6 +126,15 @@ const accentStyles = {
     gradient: 'from-cyan-500/15 via-transparent to-transparent',
     primaryBtn:
       'border-cyan-400/40 bg-cyan-400/15 text-cyan-100 hover:bg-cyan-400/25 hover:shadow-[0_0_24px_rgba(34,211,238,0.35)]',
+  },
+  indigo: {
+    glow: 'group-hover:shadow-[0_0_40px_rgba(99,102,241,0.18)] group-hover:border-indigo-400/30',
+    badge: 'border-indigo-400/25 bg-indigo-400/10 text-indigo-200',
+    tag: 'border-indigo-400/20 bg-indigo-400/10 text-indigo-100',
+    dot: 'bg-indigo-400 shadow-[0_0_10px_rgba(99,102,241,0.75)]',
+    gradient: 'from-indigo-500/15 via-transparent to-transparent',
+    primaryBtn:
+      'border-indigo-400/40 bg-indigo-400/15 text-indigo-100 hover:bg-indigo-400/25 hover:shadow-[0_0_24px_rgba(99,102,241,0.35)]',
   },
 }
 
